@@ -293,3 +293,18 @@ footer p {
     border: 2px solid #f9004d;
     transition: 0.2s; 
 }
+
+@media screen and (max-width: 760px) {
+    .card-projetos{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .baners-skill{
+        width: 100%;
+        flex-direction: column;
+    }
+}
